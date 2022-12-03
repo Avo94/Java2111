@@ -7,9 +7,10 @@ public class LetterCounter {
         String inputSentence = scanner.nextLine();
         int sentenceLength = inputSentence.length();
         int counter = 0;
+        char firstChar = inputSentence.charAt(0);
 
-        while (counter < sentenceLength){
-            System.out.println(inputSentence.charAt(0));
+        while (counter < sentenceLength) {
+            System.out.println(firstChar);
             counter++;
         }
     }
